@@ -1,10 +1,6 @@
 import useInView from '../hooks/useInView'
 
-const stats = [
-  { value: '8.98', label: 'CGPA' },
-  { value: '1874', label: 'LeetCode Rating' },
-  { value: '2M+', label: 'Trades / Day' },
-]
+
 
 export default function About() {
   const [ref, inView] = useInView()
@@ -23,14 +19,12 @@ export default function About() {
           {/* Photo column */}
           <div className={`md:col-span-2 transition-all duration-700 delay-100 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
             <div className="relative inline-block w-full">
-              {/* Photo placeholder */}
               <div className="aspect-[4/5] bg-cream-200 dark:bg-ink-800 rounded-sm overflow-hidden border border-ink-800/10 dark:border-cream-200/10 flex items-center justify-center">
-                <div className="text-center text-ink-400 dark:text-ink-500">
-                  <svg className="w-16 h-16 mx-auto mb-3 opacity-40" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-                  </svg>
-                  <p className="font-mono text-xs tracking-widest opacity-50">YOUR PHOTO</p>
-                </div>
+                <img
+                  src="/profile.jpeg"
+                  alt="Profile"
+                  className="object-cover w-full h-full"
+                />
               </div>
               {/* Offset decorative border */}
               <div className="absolute -bottom-3 -right-3 w-full h-full border border-accent/25 rounded-sm -z-10" />
@@ -38,12 +32,6 @@ export default function About() {
 
             {/* Stats */}
             <div className="mt-8 grid grid-cols-3 gap-2">
-              {stats.map(s => (
-                <div key={s.label} className="text-center p-3 border border-ink-800/8 dark:border-cream-200/8 rounded-sm">
-                  <p className="font-serif text-2xl font-bold text-accent">{s.value}</p>
-                  <p className="font-mono text-[10px] tracking-wider uppercase text-ink-400 dark:text-ink-500 mt-0.5">{s.label}</p>
-                </div>
-              ))}
             </div>
           </div>
 
@@ -56,13 +44,13 @@ export default function About() {
               Currently working as a Trainee Analyst at Wissen Technology, collaborating with Morgan Stanley's Trades & Reporting team to architect microservices that process 2M+ trades per day using Java, Spring Boot, and PostgreSQL.
             </p>
             <p className="text-ink-600 dark:text-cream-300 leading-relaxed text-base mb-8">
-              Beyond backend engineering, I have a deep interest in AI/ML — selected for the Amazon Machine Learning Summer School 2024 out of 60K+ applicants. When I'm not coding, I'm sharpening problem-solving on LeetCode (Knight, 1874 rating) or contributing to open source.
+              Beyond backend engineering, I have a deep interest in AI/ML — selected for the Amazon Machine Learning Summer School 2024 out of 60K+ applicants. When I'm not coding, I'm exploring new technologies and amazing music.
             </p>
 
             {/* Quick facts */}
             <div className="space-y-2 mb-8">
               {[
-                ['Location', 'Dehradun, Uttarakhand'],
+                ['Location', 'Bengaluru, Karnataka, India'],
                 ['Education', 'B.Tech CSE — Graphic Era University'],
                 ['Availability', 'Open to opportunities'],
                 ['Languages', 'English, Hindi'],
@@ -76,7 +64,9 @@ export default function About() {
             </div>
 
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1OeA8laOHl12-V7d_AlJyc9daG1OCZsil/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 font-mono text-xs tracking-widest uppercase px-5 py-2.5 border border-accent/50 text-accent hover:bg-accent hover:text-cream-50 rounded-sm transition-all duration-200"
             >
               Download CV
