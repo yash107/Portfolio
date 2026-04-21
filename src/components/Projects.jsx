@@ -6,7 +6,7 @@ const projects = [
     title: 'Holiday Management System',
     description: 'End-to-end enterprise system built at Wissen Technology for 100+ employees. Features role-based access (HR, Employee, Admin), session-based authentication, protected routing, and real-time leave tracking — reducing HR workload by 40%.',
     tech: ['Spring Boot', 'React.js', 'PostgreSQL', 'REST API', 'Microservices'],
-    github: '#',
+    github: 'https://github.com/Yash-Sachdeva/Holiday-Tracker',
     live: null,
     featured: true,
   },
@@ -15,7 +15,7 @@ const projects = [
     title: 'File Integrity Monitoring System',
     description: 'GUI-integrated Python tool for file and directory integrity monitoring using hash-based verification. Secures 1,000+ files, supports 5+ file formats (.doc, .txt, .rtf, .ppt, .xlsx) with 99.9% tamper detection accuracy and 80% expanded detection coverage.',
     tech: ['Python', 'Tkinter', 'Hashlib', 'Cybersecurity'],
-    github: '#',
+    github: 'https://github.com/yash107/FILE-INTEGRITY-MONITORING-',
     live: null,
     featured: false,
   },
@@ -24,7 +24,7 @@ const projects = [
     title: 'Image Compressor GUI App',
     description: 'Python desktop application enabling single and batch image compression with customizable quality settings (High, Medium, Low). Features intuitive UI, flexible output management, and real-time progress updates via a status bar.',
     tech: ['Python', 'PyQt5', 'PIL / Pillow'],
-    github: '#',
+    github: 'https://github.com/yash107/ImageCompressor-GUI-Aplication',
     live: null,
     featured: false,
   },
@@ -105,7 +105,7 @@ export default function Projects() {
         </div>
 
         <div className={`mt-10 text-center transition-all duration-700 delay-500 ${inView ? 'opacity-100' : 'opacity-0'}`}>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/yash107" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 font-mono text-xs tracking-widest uppercase text-ink-400 dark:text-ink-500 hover:text-accent dark:hover:text-accent-light transition-colors">
             <GithubIcon /> View more on GitHub
           </a>
