@@ -6,8 +6,18 @@ const experiences = [
     companyNote: 'Client: Morgan Stanley',
     roles: [
       {
+        title: 'Associate Software Engineer',
+        period: 'April 2026 – Present',
+        tech: ['Java', 'Spring Boot', 'PostgreSQL', 'DB2','Sybase'],
+        bullets: [
+          'Collaborating with Institutional Securities Technology team at Morgan Stanley to decommission legacy system and moving them to distributed architecture',
+          'Supporting the full SDLC — backend development, testing, deployment, and CI/CD pipelines — while ensuring financial regulatory compliance.',
+
+        ],
+      },
+      {
         title: 'Trainee Analyst',
-        period: 'July 2025 – Present',
+        period: 'July 2025 – March 2026',
         tech: ['Java', 'Spring Boot', 'PostgreSQL', 'DB2'],
         bullets: [
           'Collaborating with the Trades & Reporting team at Morgan Stanley to design and scale high-performance trade reporting systems for multi-asset financial clients.',
