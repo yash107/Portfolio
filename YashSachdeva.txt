@@ -1,0 +1,44 @@
+Yash Sachdeva
+Dehradun,Uttarkhand
+\. +91-9897987850 B yashsachdeva12703@gmail.com	m Linkedin O GitHub
+
+EDUCATION
+Graphic Era University	September 2021 - May 2025
+Computer Science and Engineering(CSE) - CGPA - 8.98	Dehradun, India
+DPSG Dehradun	2021
+12th CBSE PCM - Percentage - 94.8%	Dehradun, India
+DPSG Dehradun	2019
+10th CBSE - Percentage - 95%	Dehradun, India
+COURSEWORK / SKILLS
+Coursework		Data Structures, Problem-Solving, Operating Systems, Database Management Systems Languages			Python, C, C++, HTML/CSS, JavaScript, SQL, Java (Basic), AI/ML, NLP, LLM (Basic) Tools	Git, MySQL, ChatGPT, Streamlit, OpenCV, Scikit-learn, LangChain, VS Code
+Platforms	Linux, Windows, Web, GitHub, Streamlit
+EXPERIENCE
+Wissen Technology	January 2025 - Present
+Trainee Analyst | Spring Boot, PostgreSQL, DB2	July 2025 - Present
+• Collaborated with the Trades and Reporting team at Morgan Stanley to design, develop, and scale
+high-performance trade reporting systems for multi-asset financial clients, ensuring low latency and high reliability.
+• Architected and optimized backend microservices and data processing pipelines using Java and Spring Boot, increasing system throughput from 700K to 2+ million trades per day.
+• Strengthened system performance and resilience by adopting scalable architectures, achieving measurable latency reduction ( 25%) and improved stability during high-load scenarios.
+• Supported the end-to-end SDLC, including backend development, testing, deployment, and CI/CD pipelines, while ensuring compliance with financial regulatory standards and enterprise security requirements.
+Trainee Analyst Intern | Spring Boot, PostgreSQL, React JS, REST API	January 2025 - June 2025
+• Developed an end-to-end Holiday Management System using Spring Boot (Java), PostgreSQL, and React.js with role-based access (HR, Employee, Admin), secure session-based authentication, and protected routing, enabling 100+ employees to access client-specific holidays and reducing HR queries by 35%.
+• Implemented Microservices Architecture using Eureka Server and API Gateway, supporting scalable service discovery and inter-service communication.
+• Reduced HR manual workload by 40% through automation and real-time leave tracking, improving operational efficiency.
+PROJECTS
+File Integrity Monitoring System | Python, Cyber Security, Tkinter | O GitHub
+• Developed a GUI-integrated Python tool for file and directory integrity monitoring using hash-based verification, securing over 1,000+ files across test environments.
+• Enabled accurate tamper detection for 5+ file formats (.doc, .txt, .rtf, .ppt, .xlsx) with a detection accuracy of 99.9%.
+• Implemented customizable baselines and multi-directory monitoring, increasing detection coverage by
+80% in critical folder paths.
+Image Compressor GUI Application | Python, PyQt5, PIL (Pillow)| O GitHub
+• Developed a Python-based desktop application that enables users to compress single or multiple images with customizable quality settings (High, Medium, Low) using PyQt5 for the UI and PIL (Pillow) for image processing.
+• Implemented functionality to save compressed images either with a new name in the same directory or in a user-selected destination folder, improving file management flexibility.
+• Designed a simple, intuitive user interface for image selection, quality adjustment, and output configuration, with real-time progress updates displayed via the status bar.
+
+ACHIEVEMENTS
+• Selected for Amazon Machine Learning Summer School 2024 out of 60K+ applicants.
+• Selected for PwC Cybersecurity, Risk and Regulatory Launchpad out of 10K+ applicants.
+• Secured Third position in UI/UX Design Competition out of 200+ teams conducted by NIT-K at E-Summit'22.
+• Participated in more than 4 Google Kickstart with best global rank of 2583 in Round H 2022
+• Attained the title of Knight with a rating of 1874 on Leetcode.
+• Successfully participated in one of the largest Open Source Competition Hacktoberfest 2022.

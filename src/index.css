@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    margin: 0;
+    @apply bg-cream-100 text-ink-800 font-sans transition-colors duration-300;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background: rgba(139, 115, 85, 0.25);
+    color: #1a1410;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply font-serif text-3xl md:text-4xl font-semibold tracking-tight mb-2;
+  }
+
+  .retro-line {
+    @apply h-px bg-gradient-to-r from-accent/60 via-accent/20 to-transparent mb-10;
+  }
+
+  .retro-tag {
+    @apply font-mono text-xs px-3 py-1 border border-accent/40 text-ink-600 dark:text-cream-300 rounded-sm tracking-widest uppercase;
+  }
+
+  .nav-link {
+    @apply font-mono text-xs tracking-widest uppercase text-ink-500 dark:text-cream-300 hover:text-accent dark:hover:text-accent-light transition-colors duration-200;
+  }
+
+  .project-card {
+    @apply border border-ink-800/10 dark:border-cream-200/10 rounded-sm p-6 hover:border-accent/40 dark:hover:border-accent/40 transition-all duration-300 bg-white/60 dark:bg-ink-800/40 backdrop-blur-sm;
+  }
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #faf7f0; }
+::-webkit-scrollbar-thumb { background: rgba(139, 115, 85, 0.4); border-radius: 9999px; }
+
+.dark ::-webkit-scrollbar-track { background: #1a1410; }
