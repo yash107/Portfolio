@@ -63,7 +63,7 @@ export default function Hero() {
         {/* Tagline */}
         <p className="text-ink-500 dark:text-ink-400 text-base sm:text-lg leading-relaxed max-w-xl mx-auto mb-10 font-light">
           Building high-performance backend systems and intelligent applications.
-          Based in <span className="text-accent font-medium">Dehradun, Uttarakhand</span> — open to new opportunities.
+          Based in <span className="text-accent font-medium">Bengaluru, Karnataka</span> — open to new opportunities.
         </p>
 
         {/* CTAs */}
